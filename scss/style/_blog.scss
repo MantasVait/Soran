@@ -1,0 +1,51 @@
+.blogs {
+    h2 {
+        font-size: 48px;
+        color: rgb(121, 121, 121);
+        font-family: "Open Sans";
+        font-weight: bold;
+        text-align: center;
+        margin: 50px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-width: 100%;
+        .blog {
+            max-width: 25%;
+            margin: 20px;
+            margin-bottom: 75px;
+            h3 {
+                font-size: 20px;
+                line-height: 31px;
+                color: rgb(121, 121, 121);
+                font-family: "Open Sans";
+                font-weight: bold;
+            }
+            p {
+                font-size: 14px;
+                line-height: 31px;
+                color: $color-primary;
+                font-family: "Open Sans";
+                margin: 0px;
+                i {
+                    padding-left: 15px;
+                }
+            }
+            span {
+                display: block;
+                font-size: 14px;
+                line-height: 31px;
+                color: rgb(121, 121, 121);
+                font-family: "Open Sans";
+            }
+            a {
+                font-size: 14px;
+                color: rgb(121, 121, 121);
+                font-family: "Open Sans";
+                font-weight: bold;
+            }
+        }
+    }
+}

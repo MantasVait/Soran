@@ -1,0 +1,431 @@
+@media (max-width: 1551px) {
+    .cards {
+        flex-direction: column;
+        padding-top: 40px;
+        .card {
+            max-width: 90%;
+            min-width: 615px;
+            align-self: center;
+            margin-top: 50px;
+        }
+    }
+    .blogs {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            justify-content: center;
+            .blog {
+                min-width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .our-benefits {
+        .text {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .benefits {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .content {
+                min-width: 50%;
+                padding: 25px;
+            }
+        }
+    }
+    .quotes {
+        .container {
+            flex-wrap: wrap !important;
+            .quote {
+                margin: 20px;
+            }
+        }
+    }
+    .important {
+        .imp-image {
+            width: 40%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    .newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        .input-group {
+            min-width: 400px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .our-benefits {
+        .text {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .blogs {
+        .container {
+            .blog {
+                min-width: 80%;
+            }
+        }
+    }
+    .great-team {
+        h2 {}
+        .team {
+            .content {
+                max-width: 40%;
+                min-width: 180px;
+                display: none;
+                &.active {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 915px) {
+  .content2{
+    h2{
+      span{
+        display: inline !important;
+      }
+    }
+    p{
+      span{
+        display: inline !important;
+      }
+    }
+  }
+  .our-benefits {
+      .text {
+          p {
+              span {
+                  display: inline !important;
+              }
+          }
+      }
+  }
+    .navigation {
+        .links {
+            align-self: center;
+            a {
+                min-width: 40%;
+                padding: 25px;
+                text-align: center;
+            }
+            a:hover {
+                background-color: lightpink !important;
+                border-radius: 10px !important;
+            }
+            margin-bottom: 75px;
+        }
+    }
+}
+
+@media (max-width: 775px) {
+    .our-benefits {
+        .text {
+          margin: 75px 50px;
+            h3 {
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 725px) {
+    .great-team {
+        h2 {
+            padding: 60px 0px;
+        }
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        .icon-left {
+            width: 100%;
+            text-align: center;
+        }
+        .menu {
+            padding: 0px;
+            width: 100%;
+            flex-direction: column;
+            align-self: center;
+            li {
+                padding: 15px;
+                a {
+                    text-decoration: none !important;
+                    font-size: 24px !important;
+                    padding: 15px 35px !important;
+                }
+                a:hover {
+                    background-color: lightpink !important;
+                    border-radius: 50px !important;
+                }
+            }
+        }
+    }
+    .important {
+        flex-wrap: wrap;
+        padding: 50px 25px;
+        .imp-image {
+            width: 100%;
+            img {
+                max-width: 75%;
+                margin: 10px 12.5%;
+            }
+        }
+        .content2 {
+            max-width: 90%;
+        }
+    }
+    .cards {
+        .card {
+            flex-direction: column;
+            min-width: 450px;
+            text-align: center;
+            img {
+                align-self: center;
+            }
+            p {
+                span {
+                    display: inline !important
+                }
+            }
+        }
+    }
+    .search {
+        .input-group {
+            max-width: 60%;
+            min-width: 400px;
+        }
+    }
+
+    .benefits {
+        .content {
+            min-width: 100% !important;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .search{
+      .social{
+        margin-top: 75px;
+        margin-bottom: 50px;
+      }
+    }
+    .arrow-left,
+    .arrow-right {
+        img {
+            margin: 10px !important;
+        }
+    }
+    .newsletter .input-group {
+        min-width: 70% !important;
+    }
+    .search .input-group {
+        min-width: 70% !important;
+    }
+    .quotes {
+        h2{
+        padding: 40px 20px !important;
+        font-size: 36px;
+        }
+        .container {
+            .quote {
+                margin: 0px;
+                .box{
+                  padding-top: 50px;
+                  span{
+                      display: inline !important;
+                  }
+                }
+            }
+        }
+    }
+    .great-team{
+      h2{
+        padding: 30px 0px;
+        font-size: 36px;
+      }
+    }
+    .blogs{
+      h2{
+        font-size: 36px;
+      }
+    }
+}
+
+@media (max-width: 566px) {
+  .content2{
+    h2{
+      font-size: 1.5rem;
+    }
+    p{
+      font-size: 0.9rem;
+    }
+  }
+  .newsletter .input-group {
+      min-width: 75% !important;
+  }
+  .search .input-group {
+      min-width: 75% !important;
+  }
+    h2 {
+        span {
+            display: inline !important;
+        }
+    }
+}
+
+@media (max-width: 501px) {
+  .quotes {
+      h2{
+      font-size: 24px;
+      }
+    }
+    .blog {
+        p,
+        span {
+            font-size: 12px !important;
+        }
+    }
+    .cards {
+        .card {
+            min-width: 80%;
+            p {
+                span {
+                    display: inline !important
+                }
+            }
+        }
+    }
+    .search,
+    .newsletter {
+        .input-group {
+            flex-direction: column;
+            input {
+                min-width: 100%;
+                border-radius: 50px !important;
+                align-self: center;
+            }
+            .input-group-append {
+                align-self: center;
+                .btn {
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 50%;
+                    border-top-right-radius: 3px;
+                    border-bottom-right-radius: 50%;
+                    min-width: 150px;
+                }
+            }
+        }
+    }
+    section {
+        .links {
+            min-width: 100% !important;
+            margin-left: 0px !important;
+            justify-content: center !important;
+            a {
+                min-width: 70% !important;
+                border-radius: 10px;
+                background-color: rgba(255, 100, 194, 0.2);
+                margin: 5px;
+            }
+            a:hover {
+                background-color: rgba(255, 100, 194, 0.9) !important;
+                border-radius: 40px !important;
+            }
+        }
+    }
+    .navigation {
+        .social {
+            flex-direction: column !important;
+            .icons {
+                padding: 10px;
+            }
+        }
+    }
+    .our-benefits {
+        .text {
+            margin: 50px 25px;
+        }
+    }
+}
+@media (max-width: 445px) {
+  .blogs{
+    .container{
+      .blog{
+        span{
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 430px) {
+    .search {
+        h2 {
+            padding: 0px 20px !important;
+            span {
+                display: inline !important;
+            }
+        }
+    }
+    .content {
+        .names {
+            padding-bottom: 10px !important;
+            h3 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .arrow-left,
+    .arrow-right {
+        img {
+            margin: 0px !important;
+            max-width: 48px !important;
+        }
+    }
+
+    .search, .newsletter{
+      .input-group{
+        input{
+          font-size: 14px !important;
+        }
+      }
+    }
+}
+@media (max-width: 363px) {
+    .benefits{
+      .content{
+        p{
+          span{
+            display: inline !important;
+          }
+        }
+      }
+    }
+
+}

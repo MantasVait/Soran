@@ -1,0 +1,54 @@
+.great-team {
+  padding: 20px;
+  text-align: center;
+  background-color: #ff64c2; }
+  .great-team h2 {
+    padding: 120px 0px;
+    font-size: 48px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: white; }
+  .great-team .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 75px; }
+    .great-team .team .content {
+      margin: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      max-width: 22.5%; }
+      .great-team .team .content img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        -ms-flex-item-align: center;
+        align-self: center;
+        width: 100%; }
+      .great-team .team .content .names {
+        -ms-flex-item-align: center;
+        align-self: center;
+        width: 100%;
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-top: -10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; }
+    .great-team .team .arrow-left, .great-team .team .arrow-right {
+      -ms-flex-item-align: center;
+      align-self: center; }
+      .great-team .team .arrow-left img, .great-team .team .arrow-right img {
+        margin: 50px;
+        max-width: 64px; }

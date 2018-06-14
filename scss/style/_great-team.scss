@@ -1,0 +1,55 @@
+.great-team{
+  padding: 20px;
+  text-align: center;
+  background-color: $color-primary;
+  h2{
+    padding: 120px 0px;
+    font-size: 48px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: white;
+  }
+  .team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 75px;
+    .content{
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      max-width: 22.5%;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      box-shadow: 0.954px 4.908px 11px rgba(192,16,79,0.5);
+
+      img{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        align-self: center;
+        width: 100%;
+      }
+      .names{
+        align-self: center;
+        width: 100%;
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-top: -10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+    .arrow-left, .arrow-right{
+      align-self: center;
+
+
+      img{
+      margin: 50px;
+      max-width: 64px;
+      }
+    }
+
+
+  }
+}

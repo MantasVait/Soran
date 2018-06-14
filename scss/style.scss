@@ -1,0 +1,19 @@
+
+ //rgb(255, 101, 194) / #555151
+$color-primary: rgb(255, 101, 194);
+$color-secondary: #555151;
+
+@import 'style/_global';
+@import 'style/_helpers';
+@import 'style/_navigation';
+@import 'style/_main';
+@import 'style/_benefits';
+@import 'style/_cards';
+@import 'style/_important';
+@import 'style/_quotes';
+@import 'style/_great-team';
+@import 'style/_blog';
+@import 'style/_newsletter';
+@import 'style/_footer';
+@import 'style/_svgimage';
+@import 'style/_media';

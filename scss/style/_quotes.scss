@@ -1,0 +1,38 @@
+.quotes{
+  padding: 50px 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  max-width: 100%;
+  h2{
+    padding: 50px 0px;
+    font-size: 48px;
+    color: rgb(121,121,121);
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    .quote{
+      img{
+        border-radius: 50%;
+        width: 93px;
+        height: 93px;
+        margin-bottom: -50px;
+      }
+      .box{
+        padding: 15px;
+        margin: 15px;
+        padding-top: 75px;
+        background-color: white;
+        box-shadow: 0.927px 2.853px 9px rgba(217,217,217,0.5);
+        span{
+          display: block;
+        }
+      }
+    }
+  }
+}

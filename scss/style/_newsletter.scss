@@ -1,0 +1,41 @@
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: $color-primary;
+    padding: 50px 0px;
+    .input-group {
+        max-width: 35%;
+    }
+    #icon {
+        background-image: url(../img/envelope.png);
+        background-repeat: no-repeat;
+        background-position: 20px 15px;
+    }
+    h3 {
+        min-width: 30%;
+        align-self: center;
+        color: white;
+    }
+    i {
+        align-self: center;
+        color: rgb(255, 101, 194);
+        font-size: 24px;
+        margin-right: -40px;
+        z-index: 2;
+    }
+    input {
+        max-width: 100%;
+        border-radius: 35px;
+        padding: 15px;
+        padding-left: 50px;
+    }
+    button {
+        background-color: $color-secondary;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        padding: 10px 30px;
+        color: white;
+    }
+}
